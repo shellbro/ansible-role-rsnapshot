@@ -1,2 +1,4 @@
 ---
-# tasks file for ansible-role-rsnapshot
+- name: install rsnapshot
+  yum: name=rsnapshot state=present
+  become: yes
