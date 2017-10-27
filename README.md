@@ -1,7 +1,7 @@
 rsnapshot
 =========
 
-Ansible role for building backup server (CentOS 7).
+Ansible role for building a backup server (CentOS 7).
 
 Requirements
 ------------
@@ -11,7 +11,10 @@ None
 Role Variables
 --------------
 
-None
+- snapshot_root
+- no_create_root
+- backup_levels
+- backup_points
 
 Dependencies
 ------------
