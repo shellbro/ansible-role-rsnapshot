@@ -28,7 +28,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - rsnapshot
+        - rsnapshot
 
 License
 -------
