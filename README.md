@@ -3,7 +3,7 @@ rsnapshot
 
 [![Build Status](https://travis-ci.org/shellbro/ansible-role-rsnapshot.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-rsnapshot)
 
-Ansible role for building a backup server (CentOS 7).
+Ansible role to setup a backup server using rsnapshot (CentOS 7).
 
 Requirements
 ------------
