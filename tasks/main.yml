@@ -1,4 +1,6 @@
 ---
 - name: install rsnapshot
-  yum: name=rsnapshot state=present
+  yum:
+    name: rsnapshot
+    state: present
   become: yes
