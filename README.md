@@ -13,15 +13,15 @@ None
 Role Variables
 --------------
 
-- snapshot_root
-- no_create_root
-- backup_levels
-- backup_points
+* snapshot_root
+* no_create_root
+* backup_levels
+* backup_points
 
 Dependencies
 ------------
 
-- shellbro.epel
+* shellbro.epel
 
 Example Playbook
 ----------------
